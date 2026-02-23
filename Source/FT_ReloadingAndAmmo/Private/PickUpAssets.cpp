@@ -1,9 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "PickupAsset.h"
+#include "PickUpAssets.h"
 
-UPickUpAsset::UPickUpAsset()
+UPickUpAssets::UPickUpAssets()
 
 {
 
@@ -11,6 +11,6 @@ UPickUpAsset::UPickUpAsset()
 
 	Quantity = 0;
 
-	Icon = nullptr;
+	//Icon = nullptr;
 
 }

@@ -4,20 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
-#include "PickupAsset.generated.h"
+#include "MyPrimaryDataAsset.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class FT_RELOADINGANDAMMO_API UPickupAsset : public UPrimaryDataAsset
+class FT_RELOADINGANDAMMO_API UMyPrimaryDataAsset : public UPrimaryDataAsset
 {
-	FString ItemName;
-
-	Int Quantity;
-
-	UPaperSprite* Icon;
-
-	UPickAsset();
+	GENERATED_BODY()
 	
 };
