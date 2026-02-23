@@ -1,0 +1,23 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "Engine/DataAsset.h"
+#include "PickupAsset.generated.h"
+
+/**
+ * 
+ */
+UCLASS()
+class FT_RELOADINGANDAMMO_API UPickupAsset : public UPrimaryDataAsset
+{
+	FString ItemName;
+
+	Int Quantity;
+
+	UPaperSprite* Icon;
+
+	UPickAsset();
+	
+};
